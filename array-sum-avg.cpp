@@ -1,0 +1,32 @@
+// Display Sum and Average of Array Elements Using for Loop
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+  // initialize an array without specifying size
+  double numbers[] = {7, 5, 6, 12, 35, 27};
+
+  double sum = 0;
+  double count = 0;
+  double average;
+  cout << "The numbers are: ";
+
+  //  print array elements
+  for (const double &n : numbers) {
+    cout << n << "  ";
+    sum += n;
+    ++count;
+  }
+    cout << "\nTheir Sum = " << sum << endl;
+    average = sum / count;
+    cout << "Their Average = " << average << endl;
+    return 0;
+}
+ 
+ 
+/*
+The numbers are: 7  5  6  12  35  27
+Their Sum = 92
+Their Average = 15.3333
+*/
