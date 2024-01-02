@@ -1,0 +1,18 @@
+.flag{
+    height: 100px;
+    width: 500px;
+    background-color: coral;
+    position: relative;
+} 
+.flagg{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+}
+.flaggg{
+    height: 100px;
+    width: 500px;
+    background-color: green;
+
+}  
